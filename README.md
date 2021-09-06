@@ -85,3 +85,12 @@ And how say someone:
 All information you can find on [official site](https://opensearch.org/docs/security-plugin/configuration/ldap/)
 
 ![Rubius](https://planyway.com/)
+
+### Таблицы
+
+В чистом Маркдауне нет синтаксиса для таблиц, а в GFM есть.
+
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
