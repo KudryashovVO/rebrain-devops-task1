@@ -71,7 +71,7 @@ authc:
 
 Configuretion for second paer code:
 Name | Description
----- | -----------
+------------ | ------------
 **rolebase** | Specifies the subtree in the directory where role/group information is stored.
 
 
