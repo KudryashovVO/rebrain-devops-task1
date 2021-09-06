@@ -1,3 +1,4 @@
+```
 #Example
 #Lists
 #Unordered
@@ -26,23 +27,17 @@
 
 #table
 # text | text
-# ----|-----
-#text |text
-
-
-
-> We're living the future so
-> the present is our past.
-Inline code
-I think you should use an
-`<addr>` element here instead.
+# ---- | ----
+#text | text
+```
 
 
 In this repository I want to discribe, how you can setting the **LDAP** on Opensearch.
 ## Opensearch with LDAPS
-For settin you need:
+For setting you need:
 1. Open the directory */opt/...plugins/opensearch-security/securityconfig/config.yml*
 2. Change setting for **ldap**:
+
   *This setting on **config.yml**:
  ```
 authc:
@@ -76,7 +71,7 @@ authc:
 
 Configuretion for second paer code:
 Name | Description
----------|-------------
+---- | -----------
 **rolebase** | Specifies the subtree in the directory where role/group information is stored.
 
 
@@ -88,4 +83,5 @@ And how say someone:
 >Well done!
 
 All information you can find on [official site](https://opensearch.org/docs/security-plugin/configuration/ldap/)
+
 ![Rubius](https://planyway.com/)
